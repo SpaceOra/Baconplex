@@ -2,8 +2,8 @@
 #include <math.h>
 using namespace std;
 
-// Realized with <3 by Italian Open Rocketry Association (ORA).
-// An open source project. Check it out on GitHub.
+// Realized with <3 by Italian Open Rocketry Association (ORA) - Published by Roti (2022) under MIT License. 
+// An open source project. 
 
 // Thanks to http://www.rocketmime.com/rockets/rckt_eqn.html
 
@@ -59,7 +59,7 @@ void calc(float mr, float me, float mp, float d, float I, float F)
 }
 
 
-// TEMPORARLY REMOVED (tbh i think it's useless but i'm too scared about deleting it lmaoo)
+//////// TEMPORARLY REMOVED (tbh i think it's useless but i'm too scared about deleting it lmaoo) ////////
 
 //void calc(float mass, float diam, float impul, float thru)
 //{
@@ -78,15 +78,15 @@ void calc(float mr, float me, float mp, float d, float I, float F)
 //
 //    // MANCA UN PEZZOOOO !!!!!!! il terzultimo punto del primo paragrafo
 //
-//    float q=0; // CHIARIRE COSA SIA
+//    float q=0; // NOT WORKING
 //    q=sqrt((thru-(mass*g))/k);
 //
-//    float x=0; // CHIARIRE COSA SIA pt 2
+//    float x=0; // NOT WORKING pt 2
 //    x=(2*k*q)/mass;
 //
 //    cout << "Executing final equations..." << endl;
 //
-//    float v=0; // CHIARIRE COSA SIA pt.3
+//    float v=0; // NOT WORKING pt.3
 //    v=q*(1-exp(-x*burn_t))/(1+exp(-x*burn_t)); //meters/second
 //
 //    float yb=0;
@@ -133,6 +133,8 @@ void calc(float mr, float me, float mp, float d, float I, float F)
 //    output(maxAlt,ta,dragForce,netForce,deltaDistance,vBurnOut);
 //
 //}
+
+////////////////////////////////////////////////////////////////////////////////
 
 void inputData (float mr, float me, float mp, float d, float I, float F)
 {
