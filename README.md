@@ -1,7 +1,7 @@
 # <img src="https://avatars.githubusercontent.com/u/101290080?s=200&v=4" width="50"/> Baconplex
 A simple software to elaborate data &amp; run simulations about single stage rocket launches.
 
-> *Powered by the rocket-applicated engineering team of the ![Italian Open Rocketry Association](https://github.com/SpaceOra). Published by Roti (2022). An open source code under MIT License.*
+> *Published by Roti (2022) for ORA Space. An open source code under MIT License.*
 
 ![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-ff69b4)
 
